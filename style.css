@@ -1,0 +1,28 @@
+.text-center {
+    text-align: center;
+}
+
+#field {
+    margin: 0 auto;
+    width: 720px;
+    height: 720px;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
+.chess-block {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.bg-black {
+    background: #252525;
+}
+.active {
+    background-image: url('./images/iconfinder_black_knight_754824.png');
+    background-color: orange;
+    background-size: contain;
+}
+
+.green {
+    background: green;
+}
